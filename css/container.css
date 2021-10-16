@@ -1,0 +1,9 @@
+.container {
+    flex-basis: 600px;
+    margin: 20px auto 0px;
+    padding: 0 20px;
+    border: solid 1px hsl(0, 5%, 88%);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 3px 13px 0px hsl(0, 0%, 90%);
+}

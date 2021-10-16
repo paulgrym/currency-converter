@@ -1,0 +1,7 @@
+.header_title {
+    color: hsl(19, 87%, 50%);
+    text-shadow: 1px 2px 5px hsl(0, 0%, 90%);
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
