@@ -9,7 +9,8 @@
     <link rel="icon" href="images/icon.png">
     <meta property="og:image" content="images/share.jpg">
     <meta property="og:title" content="Currency converter">
-    <meta property="og:description" content="Let me introduce to you my very first calculating-anything project -  the currency converter. With its help you can convert PLN to EUR, USD or CZK.">
+    <meta property="og:description"
+        content="Let me introduce to you my very first calculating-anything project -  the currency converter. With its help you can convert PLN to EUR, USD or CZK.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -36,9 +37,9 @@
             </p>
             <p>
                 <label>
-                    <span class="form__labelText">Waluta:</span>
-                    <select class="form__field js-currency">
-                        <option value="none" selected disabled>Wybierz walutę</option>
+                    <span class="form__labelText">Waluta*:</span>
+                    <select class="form__field js-currency" required>
+                        <option value="">Wybierz walutę</option>
                         <option value="EUR">Euro (EUR)</option>
                         <option value="USD">Dolar amerykański (USD)</option>
                         <option value=CZK>Korona czeska (CZK)</option>
@@ -48,7 +49,7 @@
             <p>
                 <label>
                     <span class="form__labelText">Aktualny kurs:</span>
-                    <input class="form__field js-rate" type="number" min="0.01" step="any" required>
+                    <input class="form__field js-rate" type="number" readonly>
                 </label>
             </p>
             <p class="form_flex">
@@ -59,7 +60,7 @@
             <p class="form__result js-result">
             </p>
             <p>
-                * - pole wymagające uzupełniania
+                * - pola wymagające uzupełniania
             </p>
         </form>
     </div>

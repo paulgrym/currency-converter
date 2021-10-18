@@ -18,9 +18,8 @@
     max-width: 300px;
 }
 
-.interacted:invalid {
-    background-color: hsla(0, 89%, 95%, 0.842);
-    border-color: hsla(0, 89%, 85%, 0.842);
+.form__field:read-only{
+    background-color: hsla(0, 7%, 81%, 0.411);
 }
 
 .form_flex {
