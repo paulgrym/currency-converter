@@ -26,11 +26,7 @@
     const updateTextResult = (amount, result, currency) => {
         const resultElement = document.querySelector(".js-result");
 
-        if (currencyElement.value === "none") {
-            resultElement.innerHTML = `Wybierz walutę`;
-        } else {
-            resultElement.innerHTML = `${amount}PLN = <strong>${result.toFixed(2)} ${currency}</strong>`;
-        }
+        resultElement.innerHTML = `${amount}PLN = <strong>${result.toFixed(2)} ${currency}</strong>`;
     };
 
     const submitForm = (event) => {
