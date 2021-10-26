@@ -2,7 +2,7 @@
     const currencyElement = document.querySelector(".js-currency");
     const rateElement = document.querySelector(".js-rate");
 
-    assignRateElementValue = () => {
+    const assignRateElementValue = () => {
         switch (currencyElement.value) {
             case "EUR":
                 return 4.54;
@@ -15,7 +15,7 @@
         };
     };
 
-    updateRateElementValue = () => {
+    const updateRateElementValue = () => {
         rateElement.value = assignRateElementValue();
     };
 
